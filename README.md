@@ -9,6 +9,11 @@ small video files.
 
 Kanban board: https://trello.com/b/mpvfspbk/flitnex
 
+Technologies used:
+React - used by Netflix for their front end
+MaterialUI - used by Netflix
+Typescript - personal development skill
+
 Rough architecture map of Netflix's back end
 ![image](https://user-images.githubusercontent.com/46035498/198685199-29684a39-9f39-4f42-8087-eb40a977f65b.png)
 
