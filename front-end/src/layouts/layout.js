@@ -14,7 +14,7 @@ class Layout extends React.Component {
 
     render(){
         return (
-            <div id="Layout">
+            <div id="Layout" style={{height:"100%"}}>
                 {this.state.activeLayout}
             </div>
         );
