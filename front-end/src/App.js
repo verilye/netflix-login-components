@@ -17,6 +17,9 @@ function App() {
     }
   });
 
+  // Implement React router, follow this tutorial
+  // https://reactrouter.com/en/main/start/tutorial
+
   return (
     <ThemeProvider theme={themeDark}>
       <CssBaseline/>

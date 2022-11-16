@@ -16,18 +16,22 @@ export default class CallToAction extends React.Component{
                 <Box
                     ml="5%"
                     mr="5%"
-                    fontSize="60px"
+                    fontSize="50px"
                     fontWeight="bold"
                     
                 >
                     Unlimited movies, TV shows and more.
                 </Box>
                 <Box sx={{
-                        fontSize:"30px",    
+                    paddingTop:"10px",
+                    paddingBottom:"10px",
+                    fontSize:"25px",    
                 }}
                 >
                     Watch anywhere. Cancel at any time. Ads.</Box>
-                <Box>Ready to make an account? Enter your email to create or restart your membership.</Box>
+                <Box
+                    mb="10px"
+                >Ready to make an account? Enter your email to create or restart your membership.</Box>
                 <TextField 
                     fullWidth
                     id="email" 
@@ -36,7 +40,13 @@ export default class CallToAction extends React.Component{
                     sx={{input:{color:'black', backgroundColor:'white'}}}
                     InputProps={{
                         endAdornment:
-                            <Button  
+                            <Button
+                                sx={{
+                                    width:"40%",
+                                    height:"55px",
+                                    backgroundColor:"red",
+                                    fontSize:"20px",
+                                }}
                                 color="error"  
                                 fontWeight="bold"
                                 variant="contained">
