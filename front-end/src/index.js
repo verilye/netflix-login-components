@@ -8,12 +8,27 @@ import {
   Route,
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import Login from './layouts/login';
+import Main from './layouts/main';
+
+
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element: <App/>,
+  },
+  {
+    path:'main',
+    element:<Main/>
+  }
+])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router}/>
-    <App/>
+    
   </React.StrictMode>
 );
 

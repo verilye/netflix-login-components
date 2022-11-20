@@ -49,7 +49,9 @@ export default class CallToAction extends React.Component{
                                 }}
                                 color="error"  
                                 fontWeight="bold"
-                                variant="contained">
+                                variant="contained"
+                                href={`main`}
+                                >
                                 Get Started &gt;
                             </Button>}}
     >
