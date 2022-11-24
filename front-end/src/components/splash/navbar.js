@@ -2,8 +2,6 @@ import React from "react";
 import Logo from '../../assets/logo.png';
 import Button from '@mui/material/Button';
 import { Box } from "@mui/system";
-import { AppBar, Divider, Grid, Toolbar } from "@mui/material";
-
 
 
 export default class Navbar extends React.Component{
@@ -37,6 +35,7 @@ export default class Navbar extends React.Component{
                                 margin:'30px',
                                 marginRight:"60px"
                             }}
+                            href="/login"
                         >     
                             Sign In
                         </Button>
