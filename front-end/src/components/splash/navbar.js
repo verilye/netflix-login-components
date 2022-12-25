@@ -13,16 +13,17 @@ export default class Navbar extends React.Component{
                 component="span"
                 display="flex"
                 justifyContent="space-between">
-
-                        <img 
-                            src={Logo}
-                            sx={{ flexGrow: 1 }}
-                            style={{
-                                maxHeight:"70px",
-                                margin:'20px',
-                                marginLeft:"40px"
-                            }}
-                        />
+                        <a href="/">
+                            <img 
+                                src={Logo}
+                                sx={{ flexGrow: 1 }}
+                                style={{
+                                    maxHeight:"70px",
+                                    margin:'20px',
+                                    marginLeft:"40px"
+                                }}
+                            />
+                        </a>
                     
                         <Button 
                             variant='contained' 

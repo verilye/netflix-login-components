@@ -1,8 +1,6 @@
 import { FormControl, TextField, Button, Box } from "@mui/material"
 import React from "react"
 
-
-
 export default class LoginForm extends React.Component{
 
     render(){
